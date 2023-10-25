@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    width: auto;
+    height: auto;
+}
+
+.fw-bold{
+    font-weight: 700!important; 
+}
+#mainNav .container .navbar-brand:hover{
+   color: red;
+}
+.navbar-brand{
+    color: whitesmoke;
+    
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/Supercell-Magic_5.ttf);
+}
+#mainNav .navbar-brand {
+    font-family: myFirstFont;
+}
+.lead{
+    font-size: 1.5rem;
+    font-family: myFirstFont;
+}
+.navbar-nav .nav-item{
+    margin-right: 1rem;
+    padding: 0.5rem;
+}
+.nav-item .nav-link{
+    color: whitesmoke;
+}
+
+.feedback-form input,
+.feedback-form textarea{
+    padding: 0.5rem;
+    width: 100% ;
+    border-radius: 7px;
+}
+.feedback-form{
+    margin-top: 0.5rem;
+}
+.modal-header{
+    background: black;
+    color: white;
+}
+.bi{
+    margin-right: 0.5rem;;
+}
+#submitBtn{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    
+}
+.app-badge{
+    margin-right: 0.5rem;
+}
+#google-play{
+    width: 135px;
+    height: 40px;
+}
+.masthead{
+    padding-top: 9.5rem;
+    background-color: white;
+    padding-bottom: 5rem;
+}
+.quote-section{
+    background-image: url("../assets/img/quote-section-img.webp");
+}
+.quote{
+    padding: 8rem;
+    font-size: 1.5rem;
+    font-family: myFirstFont;
+    flex-direction: column;
+    color: white;
+}
+.logo{
+    width: 300px;
+    height: 130px;
+    display: block;
+    margin: auto;
+    
+}
+
+.logo-section{
+    background-image: url("../assets/img/bg-aside.webp");
+    
+}
+
+.features{
+    font-family: myFirstFont;
+}
+
+.features-img{
+    width: 100px;
+    height: 110px;
+}
+.download-text{
+    font-family: myFirstFont;
+    color: white;
+
+}
+.download-links{
+    margin-left: 0;
+    margin-right: 0;
+}
+.footer{
+    margin-bottom: auto;
+}
